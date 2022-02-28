@@ -1,0 +1,126 @@
+:root{
+    --grey: rgb(54, 54, 54);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#header1{
+    display: grid;
+    grid-template-columns: 80px auto auto;
+    grid-template-rows: 40px;
+    justify-content: space-between;
+    padding: 19px 32px;
+}
+
+#mom_menu li{
+    display: inline-block;
+    margin: 0px 30px;    
+}
+
+#mom_menu li a {
+    color: rgb(54, 54, 54);
+    text-transform: uppercase;
+    text-decoration: none;    
+}
+
+#mom_menu li a:hover{
+    color: rgb(153, 153, 153);
+}
+
+#imagen1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 1%;
+    display: grid;
+    justify-content: center;
+}
+
+footer{
+    font-family: 'Roboto', sans-serif;;
+    color: white;
+    background-color: rgb(168, 168, 168);
+    text-decoration: none;
+}
+
+#footer1 li{
+    list-style: none;
+    text-decoration: none;    
+    font-family:'Roboto', sans-serif;
+}
+
+#footer1 li a{
+    font-family:'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+#footer2{
+    display: grid;
+    text-align: right;
+}
+
+/* MEDIA MOBILE*************************************/
+
+@media screen and (max-width:400px){
+    header{
+        padding-top: 0%;
+        height: 8rem;
+    }
+
+    #header1{
+        width:5rem;
+        padding-bottom: 0%;
+    }
+
+    div{
+        width: 40%;
+    }
+
+    #logo_mom{
+        padding-top: 50%;
+    }
+
+    #mom_menu{
+        text-align: right;
+        padding-left: 70%;
+        list-style: none;
+        display: inline-flex;
+        float: right;
+    }
+
+    #imagen1{
+        display: inline-flex;
+        width: 10%;
+    }
+
+    #footer1{
+        height: 2%;
+        padding-left: 5%;
+        padding-top: 5%;
+        text-align: left;
+        list-style: none;
+        display: inline-block;
+        width: 200%;
+    }
+    
+    #footer2{
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+}   
+
+
+
