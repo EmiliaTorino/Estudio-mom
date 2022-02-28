@@ -21,17 +21,21 @@ body{
 
 #mom_menu li{
     display: inline-block;
-    margin: 0px 30px;    
+    margin: 0px 30px;  
 }
 
 #mom_menu li a {
     color: rgb(54, 54, 54);
     text-transform: uppercase;
-    text-decoration: none;    
+    text-decoration: none;  
+    font-size: 16px;
+    transition: all 1s;
 }
 
 #mom_menu li a:hover{
-    color: rgb(153, 153, 153);
+    font-size: 18px;
+    background-color: rgb(184, 184, 184);
+    color: rgb(73, 73, 73);
 }
 
 #imagen1{
@@ -121,6 +125,11 @@ footer{
         padding-bottom: 2%;
     }
 }   
+
+/*.transform1{
+    transform: translateX(10px);
+    transform: scale(1.1, 1.1);
+}
 
 
 
