@@ -1,0 +1,63 @@
+:root{
+    --grey: rgb(54, 54, 54);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#header1{
+    display: grid;
+    grid-template-columns: 80px auto auto;
+    grid-template-rows: 40px;
+    justify-content: space-between;
+    padding: 19px 32px;
+}
+
+#mom_menu li{
+    display: inline-block;
+    margin: 0px 30px;  
+}
+
+#mom_menu li a {
+    color: rgb(54, 54, 54);
+    text-transform: uppercase;
+    text-decoration: none;  
+    font-size: 16px;
+    transition: all 1s;
+}
+
+#mom_menu li a:hover{
+    font-size: 18px;
+    background-color: rgb(184, 184, 184);
+    color: rgb(73, 73, 73);
+}
+footer{
+    font-family: 'Roboto', sans-serif;;
+    color: white;
+    background-color: rgb(168, 168, 168);
+    text-decoration: none;
+}
+
+#footer1 li{
+    list-style: none;
+    text-decoration: none;    
+    font-family:'Roboto', sans-serif;
+}
+
+#footer1 li a{
+    font-family:'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+#footer2{
+    display: grid;
+    text-align: right;
+}
