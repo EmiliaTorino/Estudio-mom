@@ -105,6 +105,7 @@ footer{
     #imagen1{
         display: inline-flex;
         width: 10%;
+        text-align: center;
     }
 
     #footer1{

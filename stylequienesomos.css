@@ -128,9 +128,10 @@ footer{
     }
     .tarjeta_cuerpo{
         display: flex;
-        justify-content: space-around;
+        justify-content: left;
         padding-left: 5%;
         padding-right: 5%;
+        text-align: center;
     }
     #footer1{
         height: 2%;
