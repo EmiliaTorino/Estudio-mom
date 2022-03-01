@@ -39,6 +39,7 @@ body{
 }
 
 #imagen1{
+    background-image: url("imagenes/ladrillosIndex3.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
