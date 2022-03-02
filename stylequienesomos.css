@@ -73,11 +73,6 @@ body{
     padding-bottom: 16%;
 }
 
-#imagen_hormigon{
-    padding-bottom: 100%;
-    display: none;
-}
-
 footer{
     font-family: 'Roboto', sans-serif;;
     color: white;
