@@ -52,6 +52,12 @@ body{
     background-color:rgb(168, 168, 168);
     text-transform: uppercase;
 }
+
+.tarjeta_subtitulo{
+    text-decoration: none; 
+    padding-bottom: 2%;
+}
+
 footer{
     font-family: 'Roboto', sans-serif;;
     color: white;
