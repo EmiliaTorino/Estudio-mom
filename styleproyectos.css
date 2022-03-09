@@ -13,6 +13,17 @@ body{
     font-size: 16px;
 }
 
+#imagen_tamborini{
+    display: none;
+}
+
+#imagen_tamborini:hover{
+    display: none;
+    height: 2%;
+    width: 2%;
+}
+
+
 #header1{
     display: grid;
     grid-template-columns: 80px auto auto;
@@ -65,6 +76,10 @@ footer{
     text-decoration: none;
 }
 
+#footer1{
+    padding-top: 2%;
+}
+
 #footer1 li{
     list-style: none;
     text-decoration: none;    
@@ -81,4 +96,6 @@ footer{
 #footer2{
     display: grid;
     text-align: right;
+    padding-top: 0%;
+    padding-right: 2%;
 }

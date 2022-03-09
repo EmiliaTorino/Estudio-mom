@@ -80,6 +80,10 @@ footer{
     text-decoration: none;
 }
 
+#footer1{
+    padding-top: 2%;
+}
+
 #footer1 li{
     list-style: none;
     text-decoration: none;    
@@ -96,6 +100,8 @@ footer{
 #footer2{
     display: grid;
     text-align: right;
+    padding-top: 0%;
+    padding-right: 2%;
 }
 
 /* MEDIA MOBILE*************************************/

@@ -55,6 +55,9 @@ footer{
     background-color: rgb(168, 168, 168);
     text-decoration: none;
 }
+#footer1{
+    padding-top: 2%;
+}
 
 #footer1 li{
     list-style: none;
@@ -72,6 +75,8 @@ footer{
 #footer2{
     display: grid;
     text-align: right;
+    padding-top: 0%;
+    padding-right: 2%;
 }
 
 /* MEDIA MOBILE*************************************/
